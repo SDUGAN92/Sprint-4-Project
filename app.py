@@ -1,12 +1,13 @@
+from pyexpat import model
 import pandas as pd
 import numpy as np
-import streamlit as st 
+import streamlit as st
 import plotly.express as px
 
 
 df = pd.read_csv('Vehicle_Data.csv')
+# Selects models from the data frame
 df['manufacturer'] = df['model'].apply(lambda x: x.split()[0])
-
 
 st.header('Data viewer') 
 st.dataframe(df)
