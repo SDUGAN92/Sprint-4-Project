@@ -4,8 +4,10 @@ import numpy as np
 import streamlit as st
 import plotly.express as px
 
-
+st.title('Vehicle Advertisement Listings - US')
 df = pd.read_csv('Vehicle_Data.csv')
+
+
 # Selects models from the data frame
 df['manufacturer'] = df['model'].apply(lambda x: x.split()[0])
 
