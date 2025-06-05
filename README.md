@@ -31,3 +31,7 @@ Step 5: Deployment to Render
 Added a streamlit configuration file to the GitHub repository.
 Established a new web service linked to the GitHub repository in Render.
 Configured the Render web service
+
+## Live Application
+
+You can view the live version of this project here: https://sprint-4-project-1-1rzd.onrender.com
