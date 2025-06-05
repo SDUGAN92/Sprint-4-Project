@@ -32,6 +32,7 @@ normalized = st.checkbox('Normalized')
 fig = px.histogram()
 fig.add_trace(go.Histogram(x=df[df['manufacturer'] == manufacturer1]['price'], name=manufacturer1, opacity=0.75, histnorm='percent'))
 fig.add_trace(go.Histogram(x=df[df['manufacturer'] == manufacturer2]['price'], name=manufacturer2, opacity=0.75, histnorm='percent'))
+
 # normalize the histogram if the checkbox is checked
 if normalized:
     fig.update_layout(barmode='overlay')
