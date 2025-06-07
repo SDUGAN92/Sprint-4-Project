@@ -34,4 +34,4 @@ Configured the Render web service
 
 ## Live Application
 
-You can view the live version of this project here: https://sprint-4-project-1-1rzd.onrender.com
+You can view the live version of this project here: https://github.com/SDUGAN92/Sprint-4-Project.git
